@@ -33,6 +33,8 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = true;
         }
+
+        Flip(rb.velocity.x);
     }
 
     void FixedUpdate()
