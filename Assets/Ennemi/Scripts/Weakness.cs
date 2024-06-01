@@ -11,7 +11,6 @@ public class Weakness : MonoBehaviour
  {
     if(collision.CompareTag("Player"))
     {
-
 //destruction de l'ennemi avec le collider et les points target
        Destroy(objectToDestroy);
     }
